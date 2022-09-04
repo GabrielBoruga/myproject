@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheels shop project 1</title>
+
+    <!--code from swiper for slide show (ink)-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <!-- font cdn link -->
+    <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="D:\Projects\Wheels shop\CSS\style.css">
+
+</head>
+
+
+
+<body>
+    
+    
+
+
+
+
+<!-- header section starts  -->
+<header class="header">
+
+    <a href="#" class="logo"> 
+        <i class="img"> 
+            <img src="D:\Projects\Wheels shop\Images\logo.png" alt="" height="40px" width="40px">
+        </i> 
+        Wheele
+    
+    </a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#products">Products</a>
+        <a href="#categories">Categories</a>
+        <a href="#review">Review</a>
+        <a href="#blog">Blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+    
+    <div class="shopping-cart">
+
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="D:\Projects\Wheels shop\images2\konigWheels-removebg-preview.png" alt="">
+            <div class="content">
+                <h3>Konig</h3>
+                <span class="price">$299.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="D:\Projects\Wheels shop\images2\bbsWheels-removebg-preview.png"  alt="">
+            <div class="content">
+                <h3>BBS</h3>
+                <span class="price">$400.50/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="D:\Projects\Wheels shop\images2\ssrWheels-removebg-preview.png" alt="">
+            <div class="content">
+                <h3>SSR</h3>
+                <span class="price">$599.50/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+
+        <div class="total">total : $1299.99/- </div>
+        <a href="#" class="btn">checkout</a>
+
+
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="enter your email" class="box"> 
+        <input type="password" placeholder="enter your password" class="box"> 
+        <p>Forget your password <a href="#">click here</a></p>
+        <p>Don't have an account <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+
+</header>
+<!-- header section ends -->
+
+
+
+
+
+
+
+
+<!--Home starts -->
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Unique Quiality And <span>Performance</span> Products For You</h3>
+        <p>One of our many goals is to focus on customer service and satisfaction, it is, after all, the foundation of any successful business. </p>
+        <a href="#" class="btn">shop now</a>
+    </div>
+
+</section>
+<!-- home  ends  -->
+
+
+
+
+
+
+
+
+<!-- features starts  -->
+<section class="features" id="features">
+
+    <h1 class="heading"> DESIGN <span>LINES</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="D:\Projects\Wheels shop\images2\20129489572_68fc32ca08-removebg-preview.png" alt="">
+            <h3>Performance and Quiality</h3>
+            <p>Developed in motorsport and harnessed for road usage</p>
+            <a href ="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+
+            <img src="D:\Projects\Wheels shop\Images\DELIVERY.png" alt="">
+            <h3>Prompt delivery</h3>
+            <p>We deliver your orders quickly and easily</p>
+            <a href ="#" class="btn">read more</a>
+
+        </div>
+
+        <div class="box">
+
+            <img src="D:\Projects\Wheels shop\Images\866-8661608_png-file-svg-credit-card-payment-icon.png " alt="">
+            <h3>Easy payments</h3>
+            <p>On our website it is very easy to place orders online</p>
+            <a href ="#" class="btn">read more</a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- features  ends  -->
+
+
+
+
+
+<!-- products starts -->
+<section class="products" id="products">
+    
+    <h1 class="heading"> OUR <span>PRODUCTS</span> </h1>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+
+
+            <div class="swiper-slide box">
+
+                <img src="D:\Projects\Wheels shop\images2\bbsWheels2-removebg-preview.png" alt="">
+                <h3>BBS Wheels</h3>
+
+                <div class="price">$400.00</div>
+
+                <div class="stars">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+
+                <a href="#" class="btn">add to cart</a>
+
+            </div>
+
+
+            <div class="swiper-slide box">
+
+                <img src="D:\Projects\Wheels shop\images2\JapanRacing-removebg-preview.png" alt="">
+                <h3>Japan Racing Wheels</h3>
+
+                <div class="price">$350.50</div>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+
+                <a href="#" class="btn">add to cart</a>
+
+            </div>
+
+
+            <div class="swiper-slide box">
+
+                <img src="D:\Projects\Wheels shop\images2\watanabeWheels-removebg-preview.png" alt="">
+                <h3>Watanabe RS Wheels</h3>
+
+                <div class="price">$700.90</div>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+                <a href="#" class="btn">add to cart</a>
+
+            </div>
+
+
+            <div class="swiper-slide box">
+
+                <img src="D:\Projects\Wheels shop\images2\konigWheels-removebg-preview.png" alt="">
+                <h3>Konig Wheels</h3>
+
+                <div class="price">$299.99</div>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+
+                <a href="#" class="btn">add to cart</a>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+<!--...............-->
+
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+
+
+            <div class="swiper-slide box">
+
+                <img src="D:\Projects\Wheels shop\images2\oz-removebg-preview.png" alt="">
+                <h3>OZ Wheels</h3>
+
+                <div class="price">$599.99</div>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+
+                <a href="#" class="btn">add to cart</a>
+
+            </div>
+
+
+            <div class="swiper-slide box">
+
+                <img src="D:\Projects\Wheels shop\images2\enkei-removebg-preview.png" alt="">
+                <h3>Enkei Wheels</h3>
+
+                <div class="price">$350.50</div>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+
+                <a href="#" class="btn">add to cart</a>
+
+            </div>
+
+
+            <div class="swiper-slide box">
+
+                <img src="D:\Projects\Wheels shop\images2\yokohamaAdvam.png" alt="">
+                <h3>Yokohama Advam Wheels</h3>
+
+                <div class="price">$650.50</div>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+
+                <a href="#" class="btn">add to cart</a>
+
+            </div>
+
+
+            <div class="swiper-slide box">
+
+                <img src="D:\Projects\Wheels shop\images2\vossen-removebg-preview.png" alt="">
+                <h3>Vossen Wheels</h3>
+
+                <div class="price">$770.00</div>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+
+                <a href="#" class="btn">add to cart</a>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- products ends -->
+
+
+
+
+
+
+
+<!-- categories starts -->
+<section class="categories" id="categories">
+
+    <h1 class="heading"> PRODUCT <span>CATEGORIRES</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="D:\Projects\Wheels shop\images2\3_pieces_rims-removebg-preview.png" alt="">
+            <h3>3 pieces Wheels</h3>
+            <p>up to 50% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        
+        <div class="box">
+            <img src="D:\Projects\Wheels shop\images2\forged_rims-removebg-preview.png" alt="">
+            <h3>Forged Wheels</h3>
+            <p>up to 50% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="D:\Projects\Wheels shop\Images\concave rims.jpg" alt="">
+            <h3>Concave rims</h3>
+            <p>up to 50% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="D:\Projects\Wheels shop\images2\one_piece_rim-removebg-preview.png" alt="">
+            <h3>One piece rims</h3>
+            <p>up to 50% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+
+
+
+    </div>
+
+</section>
+<!-- categories ends-->
+
+
+
+
+
+<!-- review starts-->
+<section class="review" id="review">
+
+    <h1 class="heading"> CUSTOMER'S <span>REVIEW</span> </h1>
+    
+    <div class="swiper review-slider">
+        
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="D:\Projects\Wheels shop\Images\user.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h3>John Deon</h3>
+                <div class="stars">
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="D:\Projects\Wheels shop\Images\user.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h3>John Deon</h3>
+                <div class="stars">
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="D:\Projects\Wheels shop\Images\user.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h3>John Deon</h3>
+                <div class="stars">
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="D:\Projects\Wheels shop\Images\user.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h3>John Deon</h3>
+                <div class="stars">
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+<!-- revie ends -->
+
+
+
+
+
+<!-- blogs stats-->
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> OUR <span>BLOGS</span> </h1>
+
+    <div class="box-container">
+
+
+
+        <div class="box">
+
+            <img src="D:\Projects\Wheels shop\Images\blogsTest.jpg" alt="">
+
+            <div class="content">
+
+                <div class="icons">
+                    <a href="#"> <i class="fa fa-user"></i> by user </a>
+                    <a href="#"> <i class="fa fa-calentar"></i> 1st june, 2022 </a>
+                </div>
+
+                <h3>Best Wheels shop with the greatest Performance</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+        </div>
+
+
+
+        <div class="box">
+
+            <img src="D:\Projects\Wheels shop\Images\blogsTest.jpg" alt="">
+
+            <div class="content">
+
+                <div class="icons">
+                    <a href="#"> <i class="fa fa-user"></i> by user </a>
+                    <a href="#"> <i class="fa fa-calentar"></i> 1st june, 2022 </a>
+                </div>
+
+                <h3>Best Wheels shop with the greatest Performance</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+                <a href="#" class="btn">read more</a>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="box">
+
+            <img src="D:\Projects\Wheels shop\Images\blogsTest.jpg" alt="">
+
+            <div class="content">
+
+                <div class="icons">
+                    <a href="#"> <i class="fa fa-user"></i> by user </a>
+                    <a href="#"> <i class="fa fa-calentar"></i> 1st june, 2022 </a>
+                </div>
+
+                <h3>Best Wheels shop with the greatest Performance</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a href="#" class="btn">read more</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- blogs ends -->
+
+
+
+
+
+<!-- Bottom site section starts -->
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+
+            <h3><i class="imgLogo"> <img src="D:\Projects\Wheels shop\Images\logo.png" alt="" width="20" height="20"></i> Wheele </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>                
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>Contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +40 123 456 789</a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +40 111 222 333</a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i>wheeleshop@yahoo.com</a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Romania,Timisoara - Str. Abcdef,Nr.1 </a> 
+        </div>
+
+        <div class="box">
+            <h3>Quick links</h3>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Home </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Features </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Products </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Categories </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Review </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>Newsletter</h3>
+            <p>Subcribe for latest updates.</p>
+            <input type="email" placeholder=" enter your email" class="email">
+            <input type="submit" value="Subscribe" class="btn">
+            <img src="D:\Projects\Wheels shop\Images\paymantimage2-removebg-preview.png"  class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> Created by <span> Borugă Gabriel </span> </div>
+
+</section>
+<!-- Bottom site section ends-->
+
+
+
+<!--code from Swiper for slide Show (scriptul pentru animatii)-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+
+
+<!-- custom js file link-->
+<script src="D:\Projects\Wheels shop\JS\script.js"></script>
+
+</body>
+
+
+</html>
